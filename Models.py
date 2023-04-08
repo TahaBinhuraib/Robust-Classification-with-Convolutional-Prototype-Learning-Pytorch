@@ -49,54 +49,19 @@ class Net(nn.Module):
         return x1, centers, x, output
 
 
-class dce_loss(torch.nn.Module):
-    def __init__(self, n_classes, feat_dim, init_weight=True):
-
-        super(dce_loss, self).__init__()
-        self.n_classes = n_classes
-        self.feat_dim = feat_dim
-        self.centers = nn.Parameter(
-            torch.randn(self.feat_dim, self.n_classes).cuda(), requires_grad=True
-        )
-        if init_weight:
-            self.__init_weight()
-
-    def __init_weight(self):
-        nn.init.kaiming_normal_(self.centers)
-
-    def forward(self, x):
-
-        features_square = torch.sum(torch.pow(x, 2), 1, keepdim=True)
-        centers_square = torch.sum(torch.pow(self.centers, 2), 0, keepdim=True)
-        features_into_centers = 2 * torch.matmul(x, (self.centers))
-        dist = features_square + centers_square - features_into_centers
-
-        return self.centers, -dist
-
-
-def regularization(features, centers, labels):
-    distance = features - torch.t(centers)[labels]
-
-    distance = torch.sum(torch.pow(distance, 2), 1, keepdim=True)
-
-    distance = (torch.sum(distance, 0, keepdim=True)) / features.shape[0]
-
-    return distance
-
-
 class ModifiedResNet(nn.Module):
     def __init__(self, num_hidden_units, s, *args, **kwargs):
         super(ModifiedResNet, self).__init__()
         self.scale = s
         self.resnet = torchvision.models.resnet18(pretrained=False)
-        num_ftrs = self.resnet.fc.in_features
+        num_ftrs = self.resnet.fc.out_features
 
         self.reduce_to_hidden = nn.Linear(num_ftrs, num_hidden_units)
         self.dce_loss = dce_loss(10, num_hidden_units)
 
     def forward(self, x):
         x = self.resnet(x)
-        x1 = F.ReLU(self.reduce_to_hidden(x))
+        x1 = F.relu(self.reduce_to_hidden(x))
         centers, x = self.dce_loss(x1)
         output = F.log_softmax(self.scale * x, dim=1)
         return x1, centers, x, output
@@ -109,7 +74,7 @@ class dce_loss(torch.nn.Module):
         self.n_classes = n_classes
         self.feat_dim = feat_dim
         self.centers = nn.Parameter(
-            torch.randn(self.feat_dim, self.n_classes).cuda(), requires_grad=True
+            torch.randn(self.feat_dim, self.n_classes), requires_grad=True
         )
         if init_weight:
             self.__init_weight()
