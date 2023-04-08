@@ -9,7 +9,6 @@ import torch.nn.functional as F
 from Models import *
 from train_utils import *
 import torch.utils.data as utils
-import pickle
 import argparse
 
 if __name__ == "__main__":
@@ -38,8 +37,8 @@ if __name__ == "__main__":
 
     class LoadDataset(Dataset):
         def __init__(self, data, target, transform=None):
-            self.data = torch.from_numpy(data).float()
-            self.target = torch.from_numpy(target).long()
+            self.data = data
+            self.target = target
             self.transform = transform
 
         def __getitem__(self, index):
@@ -54,32 +53,28 @@ if __name__ == "__main__":
         def __len__(self):
             return len(self.data)
 
-    with open("mnist.data", "rb") as fid:
-        u = pickle._Unpickler(fid)
-        u.encoding = "latin1"
-        dataset = u.load()
-    train_x, train_y = dataset[0]
-    train_x = reshape_dataset(train_x, 28, 28)
-    test_x, test_y = dataset[1]
-    test_x = reshape_dataset(test_x, 28, 28)
+    train_x = torch.randn(100, 3, 28, 28)
+    test_x = torch.randn(100, 3, 28, 28)
+    train_y = torch.ones(100).long()
+    test_y = torch.ones(100).long()
     train_num = train_x.shape[0]
     test_num = test_x.shape[0]
 
     dataset_train = LoadDataset(train_x, train_y)
     train_loader = torch.utils.data.DataLoader(
-        dataset_train, batch_size=args.batch_size, shuffle=True, num_workers=1
+        dataset_train, batch_size=args.batch_size, shuffle=True, num_workers=0
     )
 
     dataset_test = LoadDataset(test_x, test_y)
     test_loader = torch.utils.data.DataLoader(
-        dataset_test, batch_size=args.batch_size, shuffle=False, num_workers=1
+        dataset_test, batch_size=args.batch_size, shuffle=False, num_workers=0
     )
 
     dataset_test_len = 1.0 * len(dataset_test)
     dataset_train_len = 1.0 * len(dataset_train)
 
     model = ModifiedResNet(args.h, args.num_classes, args.scale)
-    model = model.cuda()
+    model = model.to("cpu")
 
     lrate = args.lr
     optimizer_s = optim.SGD(

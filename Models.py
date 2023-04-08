@@ -90,3 +90,13 @@ class dce_loss(torch.nn.Module):
         dist = features_square + centers_square - features_into_centers
 
         return self.centers, -dist
+
+
+def regularization(features, centers, labels):
+    distance = features - torch.t(centers)[labels]
+
+    distance = torch.sum(torch.pow(distance, 2), 1, keepdim=True)
+
+    distance = (torch.sum(distance, 0, keepdim=True)) / features.shape[0]
+
+    return distance

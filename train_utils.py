@@ -64,12 +64,14 @@ def train_model(
 
         for i, (image, label) in enumerate(train_loader):
 
-            image, label = Variable(image.cuda(), requires_grad=True), Variable(
-                label.cuda(), requires_grad=False
+            image, label = Variable(image.to("cpu"), requires_grad=True), Variable(
+                label.to("cpu"), requires_grad=False
             )
 
             optimizer.zero_grad()
-
+            print("this is the shape")
+            print(image.shape)
+            print("this is the shape")
             features, centers, distance, outputs = cnn(image)
 
             _, preds = torch.max(distance, 1)
@@ -110,7 +112,7 @@ def train_model(
         for image, label in test_loader:
 
             with torch.no_grad():
-                image, label = Variable(image.cuda()), Variable(label.cuda())
+                image, label = Variable(image.to("cpu")), Variable(label.to("cpu"))
 
                 features, centers, distance, test_outputs = cnn(image)
                 _, predicted_test = torch.max(distance, 1)
