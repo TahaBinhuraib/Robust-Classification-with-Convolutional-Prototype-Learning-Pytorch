@@ -88,4 +88,5 @@ if __name__ == "__main__":
         len(testloader),
         plotsFileName,
         csvFileName,
+        device
     )

@@ -43,6 +43,7 @@ def train_model(
     dataset_test_len,
     plotsFileName,
     csvFileName,
+    device
 ):
     epochs = []
     train_acc = []
@@ -64,8 +65,8 @@ def train_model(
 
         for i, (image, label) in enumerate(tqdm(train_loader)):
 
-            image, label = Variable(image.to("cpu"), requires_grad=True), Variable(
-                label.to("cpu"), requires_grad=False
+            image, label = Variable(image.to(device), requires_grad=True), Variable(
+                label.to(device), requires_grad=False
             )
 
             optimizer.zero_grad()
@@ -110,7 +111,7 @@ def train_model(
 
             with torch.no_grad():
                 image, label = Variable(
-                    image.to("cpu")), Variable(label.to("cpu"))
+                    image.to(device)), Variable(label.to(device))
 
                 features, centers, distance, test_outputs = cnn(image)
                 _, predicted_test = torch.max(distance, 1)
