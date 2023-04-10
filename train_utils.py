@@ -1,7 +1,8 @@
 import torch
+import matplotlib.pyplot as plt
 from torch.utils.data import Dataset, DataLoader
 from torchvision import transforms, utils
-
+from tqdm import tqdm
 import scipy.misc
 import torch
 import torch.nn as nn
@@ -12,7 +13,7 @@ import torchvision
 import numpy as np
 import torch.utils.data as data_utils
 import torch.nn.functional as F
-from Models import *
+from models import *
 
 
 def lr_scheduler(optimizer, init_lr, epoch):
@@ -43,7 +44,6 @@ def train_model(
     plotsFileName,
     csvFileName,
 ):
-    criterion = dce_loss(10, 2)
     epochs = []
     train_acc = []
     test_acc = []
@@ -62,16 +62,13 @@ def train_model(
         running_corrects = 0.0
         train_batch_ctr = 0.0
 
-        for i, (image, label) in enumerate(train_loader):
+        for i, (image, label) in enumerate(tqdm(train_loader)):
 
             image, label = Variable(image.to("cpu"), requires_grad=True), Variable(
                 label.to("cpu"), requires_grad=False
             )
 
             optimizer.zero_grad()
-            print("this is the shape")
-            print(image.shape)
-            print("this is the shape")
             features, centers, distance, outputs = cnn(image)
 
             _, preds = torch.max(distance, 1)
@@ -112,7 +109,8 @@ def train_model(
         for image, label in test_loader:
 
             with torch.no_grad():
-                image, label = Variable(image.to("cpu")), Variable(label.to("cpu"))
+                image, label = Variable(
+                    image.to("cpu")), Variable(label.to("cpu"))
 
                 features, centers, distance, test_outputs = cnn(image)
                 _, predicted_test = torch.max(distance, 1)
@@ -125,8 +123,10 @@ def train_model(
                 test_running_loss += loss.item()
                 test_batch_ctr = test_batch_ctr + 1
 
-                test_running_corrects += torch.sum(predicted_test == label.data)
-                test_epoch_acc = float(test_running_corrects) / float(dataset_test_len)
+                test_running_corrects += torch.sum(
+                    predicted_test == label.data)
+                test_epoch_acc = float(
+                    test_running_corrects) / float(dataset_test_len)
 
         if test_epoch_acc > best_acc:
             torch.save(cnn, "best_model.pt")
@@ -142,12 +142,35 @@ def train_model(
         )
 
         print(
-            "Train loss: {} Test loss: {}".format(train_loss[epoch], test_loss[epoch])
+            "Train loss: {} Test loss: {}".format(
+                train_loss[epoch], test_loss[epoch])
         )
 
         print("*" * 70)
 
         plots(epochs, train_acc, test_acc, train_loss, test_loss, plotsFileName)
-        write_csv(csvFileName, train_acc, test_acc, train_loss, test_loss, epoch)
 
     torch.save(cnn, "final_model.pt")
+
+
+def plots(epochs, train_acc, test_acc, train_loss, test_loss, plotsFileName):
+    """Helper function to plot the training and test loss and accuracy; it does not save it"""
+    # Fig size should be changed
+    fig, (ax1, ax2) = plt.subplots(nrows=1, ncols=2, figsize=(10, 5))
+
+    ax1.plot(epochs, train_acc, label='Train')
+    ax1.plot(epochs, test_acc, label='Test')
+    ax1.set_title('accuracy')
+    ax1.set_xlabel('epoch')
+    ax1.set_ylabel('accuracy')
+    ax1.legend()
+
+    ax2.plot(epochs, train_loss, label='Train')
+    ax2.plot(epochs, test_loss, label='Test')
+    ax2.set_title('loss')
+    ax2.set_xlabel('epoch')
+    ax2.set_ylabel('loss')
+    ax2.legend()
+
+    # Save the plot
+    plt.savefig(plotsFileName)

@@ -1,21 +1,25 @@
 import torch
 from torch.utils.data import Dataset, DataLoader
 from torchvision import transforms, utils
+from data import CIFAR10Dataset
 import torch.optim as optim
 import torchvision
 from torchvision import datasets, models, transforms
 import torch.utils.data as data_utils
 import torch.nn.functional as F
-from Models import *
+from models import *
 from train_utils import *
 import torch.utils.data as utils
 import argparse
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--lr", type=float, default=0.01, help="initial_learning_rate")
+    parser.add_argument("--lr", type=float, default=0.01,
+                        help="initial_learning_rate")
     parser.add_argument("--batch_size", type=int, default=50)
-    parser.add_argument("--num_classes", type=int, default=10, help="number of classes")
+    parser.add_argument("--num_classes", type=int,
+                        default=10, help="number of classes")
     parser.add_argument(
         "--h", type=int, default=2, help="dimension of the hidden layer"
     )
@@ -53,28 +57,12 @@ if __name__ == "__main__":
         def __len__(self):
             return len(self.data)
 
-    train_x = torch.randn(100, 3, 28, 28)
-    test_x = torch.randn(100, 3, 28, 28)
-    train_y = torch.ones(100).long()
-    test_y = torch.ones(100).long()
-    train_num = train_x.shape[0]
-    test_num = test_x.shape[0]
+    dataset = CIFAR10Dataset()
+    trainloader = dataset.trainloader
+    testloader = dataset.testloader
+    classes = dataset.classes
 
-    dataset_train = LoadDataset(train_x, train_y)
-    train_loader = torch.utils.data.DataLoader(
-        dataset_train, batch_size=args.batch_size, shuffle=True, num_workers=0
-    )
-
-    dataset_test = LoadDataset(test_x, test_y)
-    test_loader = torch.utils.data.DataLoader(
-        dataset_test, batch_size=args.batch_size, shuffle=False, num_workers=0
-    )
-
-    dataset_test_len = 1.0 * len(dataset_test)
-    dataset_train_len = 1.0 * len(dataset_train)
-
-    model = ModifiedResNet(args.h, args.num_classes, args.scale)
-    model = model.to("cpu")
+    model = ModifiedResNet(args.h, args.num_classes, args.scale).to(device)
 
     lrate = args.lr
     optimizer_s = optim.SGD(
@@ -83,10 +71,10 @@ if __name__ == "__main__":
 
     num_epochs = 30
 
-    plotsFileName = "./plots/mnist+"  # Filename to save plots. Three plots are updated with each epoch; Accuracy, Loss and Error Rate
-    csvFileName = "./stats/mnist_log.csv"  # Filename to save training log. Updated with each epoch, contains Accuracy, Loss and Error Rate
-
-    print(model)
+    # Filename to save plots. Three plots are updated with each epoch; Accuracy, Loss and Error Rate
+    plotsFileName = "./plots/mnist+"
+    # Filename to save training log. Updated with each epoch, contains Accuracy, Loss and Error Rate
+    csvFileName = "./stats/mnist_log.csv"
 
     train_model(
         model,
@@ -94,10 +82,10 @@ if __name__ == "__main__":
         lrate,
         num_epochs,
         args.reg,
-        train_loader,
-        test_loader,
-        dataset_train_len,
-        dataset_test_len,
+        trainloader,
+        testloader,
+        len(trainloader),
+        len(testloader),
         plotsFileName,
         csvFileName,
     )
