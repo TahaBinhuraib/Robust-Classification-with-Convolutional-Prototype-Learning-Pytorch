@@ -13,7 +13,8 @@ import torchvision
 import numpy as np
 import torch.utils.data as data_utils
 import torch.nn.functional as F
-from models import *
+from Models import *
+import os 
 
 
 def lr_scheduler(optimizer, init_lr, epoch):
@@ -42,9 +43,12 @@ def train_model(
     dataset_train_len,
     dataset_test_len,
     plotsFileName,
-    csvFileName,
+    save_folder,
     device
-):
+):  
+    
+    if not os.path.exists(f"results/{save_folder}"):
+        os.makedirs(f"results/{save_folder}")
     epochs = []
     train_acc = []
     test_acc = []
@@ -130,7 +134,7 @@ def train_model(
                     test_running_corrects) / float(dataset_test_len)
 
         if test_epoch_acc > best_acc:
-            torch.save(cnn, "best_model.pt")
+            torch.save(cnn, f"results/{save_folder}/best_model.pt")
             best_acc = test_epoch_acc
 
         test_acc.append(test_epoch_acc)
@@ -149,13 +153,13 @@ def train_model(
 
         print("*" * 70)
 
-        plots(epochs, train_acc, test_acc, train_loss, test_loss, plotsFileName)
+        plots(epochs, train_acc, test_acc, train_loss, test_loss,save_folder, plotsFileName)
 
-    torch.save(cnn, "final_model.pt")
+    torch.save(cnn, f"results/{save_folder}/final_model.pt")
 
 
-def plots(epochs, train_acc, test_acc, train_loss, test_loss, plotsFileName):
-    """Helper function to plot the training and test loss and accuracy; it does not save it"""
+def plots(epochs, train_acc, test_acc, train_loss, test_loss, folder_name, plotsFileName):
+    """Helper function to plot the training and test loss and accuracy; it saved it but dont show it"""
     # Fig size should be changed
     fig, (ax1, ax2) = plt.subplots(nrows=1, ncols=2, figsize=(10, 5))
 
@@ -174,4 +178,4 @@ def plots(epochs, train_acc, test_acc, train_loss, test_loss, plotsFileName):
     ax2.legend()
 
     # Save the plot
-    plt.savefig(plotsFileName)
+    plt.savefig("results/" + folder_name + "/" + plotsFileName)

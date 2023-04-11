@@ -1,4 +1,3 @@
-from __future__ import print_function
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -16,7 +15,8 @@ class ModifiedResNet(nn.Module):
     def __init__(self, num_hidden_units, s, *args, **kwargs):
         super(ModifiedResNet, self).__init__()
         self.scale = s
-        self.resnet = torchvision.models.resnet18(pretrained=False)
+        # self.resnet = torchvision.models.resnet18(pretrained=True)
+        self.resnet = torchvision.models.resnet34(pretrained=True)
         num_ftrs = self.resnet.fc.out_features
 
         self.reduce_to_hidden = nn.Linear(num_ftrs, num_hidden_units)

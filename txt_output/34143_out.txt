@@ -1,0 +1,25 @@
+Downloading https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz to ./data/cifar-10-python.tar.gz
+Extracting ./data/cifar-10-python.tar.gz to ./data
+Files already downloaded and verified
+Current learning rate is 0.01
+Epoch 1/30
+**********************************************************************
+Train corrects: 5021.0 Train samples: 782 Train accuracy: 6.420716112531969
+Test corrects: 1000.0 Test samples: 157 Test accuracy 6.369426751592357
+Train loss: 19.655235488701354 Test loss: 2.30283218128666
+**********************************************************************
+
+===== SLURM IS ISTATISTIKLERI (JOB STATISTICS) ========================
+Job ID: 34143
+Cluster: altay
+User/Group: gbaykal/yzmkp1
+State: FAILED (exit code 1)
+Nodes: 1
+Cores per node: 64
+CPU Utilized: 00:00:50
+CPU Efficiency: 1.45% of 00:57:36 core-walltime
+Job Wall-clock time: 00:00:54
+Memory Utilized: 5.79 GB
+Memory Efficiency: 1.19% of 488.28 GB
+
+=======================================================================

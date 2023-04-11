@@ -1,0 +1,15 @@
+
+===== SLURM IS ISTATISTIKLERI (JOB STATISTICS) ========================
+Job ID: 34139
+Cluster: altay
+User/Group: gbaykal/yzmkp1
+State: FAILED (exit code 1)
+Nodes: 1
+Cores per node: 64
+CPU Utilized: 00:00:07
+CPU Efficiency: 0.25% of 00:45:52 core-walltime
+Job Wall-clock time: 00:00:43
+Memory Utilized: 246.04 MB
+Memory Efficiency: 0.05% of 488.28 GB
+
+=======================================================================

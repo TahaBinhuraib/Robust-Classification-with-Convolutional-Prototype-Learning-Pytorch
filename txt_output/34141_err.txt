@@ -1,0 +1,9 @@
+	Bu module sadece a100q ve a100x4q kuyrugundaki makinalarda calisir.
+Anaconda icin bu module ilaveten asagidaki komutu da calistiriniz:
+source /ari/progs/ANACONDA/Anaconda3-2022.10-python-3.9/etc/profile.d/conda.sh
+Traceback (most recent call last):
+  File "/ari/users/gbaykal/ProtoDiff/Robust-Classification-with-Convolutional-Prototype-Learning-Pytorch/main.py", line 11, in <module>
+    from train_utils import *
+  File "/ari/users/gbaykal/ProtoDiff/Robust-Classification-with-Convolutional-Prototype-Learning-Pytorch/train_utils.py", line 16, in <module>
+    from models import *
+ModuleNotFoundError: No module named 'models'

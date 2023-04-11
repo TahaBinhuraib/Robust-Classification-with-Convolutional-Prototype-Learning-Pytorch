@@ -7,7 +7,7 @@ import torchvision
 from torchvision import datasets, models, transforms
 import torch.utils.data as data_utils
 import torch.nn.functional as F
-from models import *
+from Models import *
 from train_utils import *
 import torch.utils.data as utils
 import argparse
@@ -29,6 +29,9 @@ if __name__ == "__main__":
     parser.add_argument(
         "--reg", type=float, default=0.001, help="regularization coefficient"
     )
+    parser.add_argument(
+        "--exp_name", type=str, default="default", help="name for saving results"
+    )
 
     args, _ = parser.parse_known_args()
 
@@ -39,25 +42,8 @@ if __name__ == "__main__":
 
         return np.array(new_dataset)
 
-    class LoadDataset(Dataset):
-        def __init__(self, data, target, transform=None):
-            self.data = data
-            self.target = target
-            self.transform = transform
 
-        def __getitem__(self, index):
-            x = self.data[index]
-            y = self.target[index]
-
-            if self.transform:
-                x = self.transform(x)
-
-            return x, y
-
-        def __len__(self):
-            return len(self.data)
-
-    dataset = CIFAR10Dataset()
+    dataset = CIFAR10Dataset(batch_size = args.batch_size)
     trainloader = dataset.trainloader
     testloader = dataset.testloader
     classes = dataset.classes
@@ -69,12 +55,11 @@ if __name__ == "__main__":
         model.parameters(), lr=lrate, momentum=0.9, weight_decay=1e-4
     )
 
-    num_epochs = 30
+    num_epochs = 100
 
     # Filename to save plots. Three plots are updated with each epoch; Accuracy, Loss and Error Rate
-    plotsFileName = "./plots/mnist+"
+    plotsFileName = "cifar10"
     # Filename to save training log. Updated with each epoch, contains Accuracy, Loss and Error Rate
-    csvFileName = "./stats/mnist_log.csv"
 
     train_model(
         model,
@@ -84,9 +69,9 @@ if __name__ == "__main__":
         args.reg,
         trainloader,
         testloader,
-        len(trainloader),
-        len(testloader),
+        len(trainloader.dataset),
+        len(testloader.dataset),
         plotsFileName,
-        csvFileName,
+        args.exp_name,
         device
     )
