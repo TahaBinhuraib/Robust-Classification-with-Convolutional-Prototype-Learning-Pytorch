@@ -1,0 +1,897 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Current learning rate is 0.0001
+Epoch 1/100
+**********************************************************************
+Files already downloaded and verified
+Files already downloaded and verified
+Current learning rate is 0.0001
+Epoch 1/100
+**********************************************************************
+Files already downloaded and verified
+Files already downloaded and verified
+Current learning rate is 0.0001
+Epoch 1/100
+**********************************************************************
+Files already downloaded and verified
+Files already downloaded and verified
+Current learning rate is 0.0001
+Epoch 1/100
+**********************************************************************
+Files already downloaded and verified
+Files already downloaded and verified
+Current learning rate is 0.0001
+Epoch 1/100
+**********************************************************************
+Train corrects: 10861.0 Train samples: 50000 Train accuracy: 0.21722
+Train corrects: 13269.0 Train samples: 50000 Train accuracy: 0.26538
+Train corrects: 9454.0 Train samples: 50000 Train accuracy: 0.18908
+Train corrects: 13038.0 Train samples: 50000 Train accuracy: 0.26076
+Train corrects: 10555.0 Train samples: 50000 Train accuracy: 0.2111
+Test corrects: 3158.0 Test samples: 10000 Test accuracy 0.3158
+Train loss: 7.288876132891916 Test loss: 2.372312705728072
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 2/100
+**********************************************************************
+Test corrects: 2334.0 Test samples: 10000 Test accuracy 0.2334
+Train loss: 4.082642213157985 Test loss: 2.2564808084994934
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 2/100
+**********************************************************************
+Test corrects: 3683.0 Test samples: 10000 Test accuracy 0.3683
+Train loss: 10.34132553671327 Test loss: 2.33618037006523
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 2/100
+**********************************************************************
+Test corrects: 2215.0 Test samples: 10000 Test accuracy 0.2215
+Train loss: 4.207542711511597 Test loss: 2.3466625726675687
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 2/100
+**********************************************************************
+Test corrects: 4130.0 Test samples: 10000 Test accuracy 0.413
+Train loss: 5.572340710693613 Test loss: 1.9629651534406445
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 2/100
+**********************************************************************
+Train corrects: 18821.0 Train samples: 50000 Train accuracy: 0.37642
+Train corrects: 13355.0 Train samples: 50000 Train accuracy: 0.2671
+Train corrects: 15995.0 Train samples: 50000 Train accuracy: 0.3199
+Train corrects: 19469.0 Train samples: 50000 Train accuracy: 0.38938
+Train corrects: 21876.0 Train samples: 50000 Train accuracy: 0.43752
+Test corrects: 4474.0 Test samples: 10000 Test accuracy 0.4474
+Train loss: 2.143709172982999 Test loss: 1.927258710317974
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 3/100
+**********************************************************************
+Test corrects: 3060.0 Test samples: 10000 Test accuracy 0.306
+Train loss: 2.1336121068281284 Test loss: 2.004063450837437
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 3/100
+**********************************************************************
+Test corrects: 3947.0 Test samples: 10000 Test accuracy 0.3947
+Train loss: 2.0855994925779453 Test loss: 1.9078344272661814
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 3/100
+**********************************************************************
+Test corrects: 3995.0 Test samples: 10000 Test accuracy 0.3995
+Train loss: 2.3716048743108957 Test loss: 2.2411815456197233
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 3/100
+**********************************************************************
+Test corrects: 4651.0 Test samples: 10000 Test accuracy 0.4651
+Train loss: 1.811880568714093 Test loss: 1.687704730637466
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 3/100
+**********************************************************************
+Train corrects: 23008.0 Train samples: 50000 Train accuracy: 0.46016
+Train corrects: 16305.0 Train samples: 50000 Train accuracy: 0.3261
+Train corrects: 19934.0 Train samples: 50000 Train accuracy: 0.39868
+Train corrects: 22505.0 Train samples: 50000 Train accuracy: 0.4501
+Train corrects: 25127.0 Train samples: 50000 Train accuracy: 0.50254
+Test corrects: 4789.0 Test samples: 10000 Test accuracy 0.4789
+Train loss: 1.8324833242484675 Test loss: 1.7237320006648196
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 4/100
+**********************************************************************
+Test corrects: 3452.0 Test samples: 10000 Test accuracy 0.3452
+Train loss: 1.9616083995155666 Test loss: 1.886438267140449
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 4/100
+**********************************************************************
+Test corrects: 4307.0 Test samples: 10000 Test accuracy 0.4307
+Train loss: 1.83754389182381 Test loss: 1.715689108341555
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 4/100
+**********************************************************************
+Test corrects: 4866.0 Test samples: 10000 Test accuracy 0.4866
+Train loss: 2.121042538481905 Test loss: 1.9902989788900447
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 4/100
+**********************************************************************
+Test corrects: 5162.0 Test samples: 10000 Test accuracy 0.5162
+Train loss: 1.59194192282684 Test loss: 1.541895460478867
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 4/100
+**********************************************************************
+Train corrects: 25729.0 Train samples: 50000 Train accuracy: 0.51458
+Train corrects: 18978.0 Train samples: 50000 Train accuracy: 0.37956
+Train corrects: 22655.0 Train samples: 50000 Train accuracy: 0.4531
+Train corrects: 24070.0 Train samples: 50000 Train accuracy: 0.4814
+Train corrects: 27679.0 Train samples: 50000 Train accuracy: 0.55358
+Test corrects: 5342.0 Test samples: 10000 Test accuracy 0.5342
+Train loss: 1.6395656358250572 Test loss: 1.5740364473077315
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 5/100
+**********************************************************************
+Test corrects: 3980.0 Test samples: 10000 Test accuracy 0.398
+Train loss: 1.785803150033097 Test loss: 1.7549794354016268
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 5/100
+**********************************************************************
+Test corrects: 4707.0 Test samples: 10000 Test accuracy 0.4707
+Train loss: 1.6625832118036803 Test loss: 1.6113501470300216
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 5/100
+**********************************************************************
+Test corrects: 5053.0 Test samples: 10000 Test accuracy 0.5053
+Train loss: 1.999972665401371 Test loss: 1.9205607145647459
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 5/100
+**********************************************************************
+Test corrects: 5230.0 Test samples: 10000 Test accuracy 0.523
+Train loss: 1.4538931200266494 Test loss: 1.5447217920158482
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 5/100
+**********************************************************************
+Train corrects: 27494.0 Train samples: 50000 Train accuracy: 0.54988
+Train corrects: 21694.0 Train samples: 50000 Train accuracy: 0.43388
+Train corrects: 24857.0 Train samples: 50000 Train accuracy: 0.49714
+Train corrects: 29235.0 Train samples: 50000 Train accuracy: 0.5847
+Train corrects: 25948.0 Train samples: 50000 Train accuracy: 0.51896
+Test corrects: 5487.0 Test samples: 10000 Test accuracy 0.5487
+Train loss: 1.5332151279425072 Test loss: 1.5224699340289152
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 6/100
+**********************************************************************
+Test corrects: 4594.0 Test samples: 10000 Test accuracy 0.4594
+Train loss: 1.6318088791254537 Test loss: 1.6013357744941228
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 6/100
+**********************************************************************
+Test corrects: 5092.0 Test samples: 10000 Test accuracy 0.5092
+Train loss: 1.5362710754584779 Test loss: 1.524253907082956
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 6/100
+**********************************************************************
+Test corrects: 6074.0 Test samples: 10000 Test accuracy 0.6074
+Train loss: 1.3571569895195534 Test loss: 1.3291182910339743
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 6/100
+**********************************************************************
+Test corrects: 5339.0 Test samples: 10000 Test accuracy 0.5339
+Train loss: 1.8928360115841527 Test loss: 1.8764510426340224
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 6/100
+**********************************************************************
+Train corrects: 28955.0 Train samples: 50000 Train accuracy: 0.5791
+Train corrects: 24882.0 Train samples: 50000 Train accuracy: 0.49764
+Train corrects: 27133.0 Train samples: 50000 Train accuracy: 0.54266
+Train corrects: 30720.0 Train samples: 50000 Train accuracy: 0.6144
+Train corrects: 27122.0 Train samples: 50000 Train accuracy: 0.54244
+Test corrects: 5873.0 Test samples: 10000 Test accuracy 0.5873
+Train loss: 1.4539154463107018 Test loss: 1.4259650239461585
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 7/100
+**********************************************************************
+Test corrects: 5281.0 Test samples: 10000 Test accuracy 0.5281
+Train loss: 1.4970831910667517 Test loss: 1.454201500627059
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 7/100
+**********************************************************************
+Test corrects: 5188.0 Test samples: 10000 Test accuracy 0.5188
+Train loss: 1.8251732154880338 Test loss: 1.8637853906124453
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 7/100
+**********************************************************************
+Test corrects: 5544.0 Test samples: 10000 Test accuracy 0.5544
+Train loss: 1.4097168918155953 Test loss: 1.3730052362514447
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 7/100
+**********************************************************************
+Test corrects: 6212.0 Test samples: 10000 Test accuracy 0.6212
+Train loss: 1.2683060361296319 Test loss: 1.2585455141490018
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 7/100
+**********************************************************************
+Train corrects: 30233.0 Train samples: 50000 Train accuracy: 0.60466
+Train corrects: 27821.0 Train samples: 50000 Train accuracy: 0.55642
+Train corrects: 28460.0 Train samples: 50000 Train accuracy: 0.5692
+Train corrects: 28427.0 Train samples: 50000 Train accuracy: 0.56854
+Train corrects: 31961.0 Train samples: 50000 Train accuracy: 0.63922
+Test corrects: 6054.0 Test samples: 10000 Test accuracy 0.6054
+Train loss: 1.375982925715044 Test loss: 1.385874737667132
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 8/100
+**********************************************************************
+Test corrects: 5644.0 Test samples: 10000 Test accuracy 0.5644
+Train loss: 1.3596624450000656 Test loss: 1.3792891955073876
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 8/100
+**********************************************************************
+Test corrects: 5372.0 Test samples: 10000 Test accuracy 0.5372
+Train loss: 1.3355349994376493 Test loss: 1.4406149206282217
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 8/100
+**********************************************************************
+Test corrects: 6357.0 Test samples: 10000 Test accuracy 0.6357
+Train loss: 1.1988664232861355 Test loss: 1.2142100801950768
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 8/100
+**********************************************************************
+Test corrects: 5764.0 Test samples: 10000 Test accuracy 0.5764
+Train loss: 1.7562359135474086 Test loss: 1.758597986607612
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 8/100
+**********************************************************************
+Train corrects: 31284.0 Train samples: 50000 Train accuracy: 0.62568
+Train corrects: 29445.0 Train samples: 50000 Train accuracy: 0.5889
+Train corrects: 29759.0 Train samples: 50000 Train accuracy: 0.59518
+Test corrects: 6174.0 Test samples: 10000 Test accuracy 0.6174
+Train loss: 1.315807995588883 Test loss: 1.3363295205031769
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 9/100
+**********************************************************************
+Train corrects: 33029.0 Train samples: 50000 Train accuracy: 0.66058
+Train corrects: 29429.0 Train samples: 50000 Train accuracy: 0.58858
+Test corrects: 5644.0 Test samples: 10000 Test accuracy 0.5644
+Train loss: 1.272316154006802 Test loss: 1.41376336465908
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 9/100
+**********************************************************************
+Test corrects: 5956.0 Test samples: 10000 Test accuracy 0.5956
+Train loss: 1.251644227815711 Test loss: 1.2555448903313167
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 9/100
+**********************************************************************
+Test corrects: 6482.0 Test samples: 10000 Test accuracy 0.6482
+Train loss: 1.1334524791868752 Test loss: 1.170326582238644
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 9/100
+**********************************************************************
+Test corrects: 5840.0 Test samples: 10000 Test accuracy 0.584
+Train loss: 1.7037833913817735 Test loss: 1.7304888043222548
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 9/100
+**********************************************************************
+Train corrects: 32167.0 Train samples: 50000 Train accuracy: 0.64334
+Train corrects: 30825.0 Train samples: 50000 Train accuracy: 0.6165
+Test corrects: 6234.0 Test samples: 10000 Test accuracy 0.6234
+Train loss: 1.2733602653379026 Test loss: 1.3321549892425537
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 10/100
+**********************************************************************
+Train corrects: 30963.0 Train samples: 50000 Train accuracy: 0.61926
+Train corrects: 33814.0 Train samples: 50000 Train accuracy: 0.67628
+Train corrects: 30274.0 Train samples: 50000 Train accuracy: 0.60548
+Test corrects: 6064.0 Test samples: 10000 Test accuracy 0.6064
+Train loss: 1.1930831468013852 Test loss: 1.244684484940541
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 10/100
+**********************************************************************
+Test corrects: 6229.0 Test samples: 10000 Test accuracy 0.6229
+Train loss: 1.1762846279936983 Test loss: 1.243501902381076
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 10/100
+**********************************************************************
+Test corrects: 6513.0 Test samples: 10000 Test accuracy 0.6513
+Train loss: 1.085889980616167 Test loss: 1.1974723105189167
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 10/100
+**********************************************************************
+Test corrects: 6178.0 Test samples: 10000 Test accuracy 0.6178
+Train loss: 1.6511789316411518 Test loss: 1.6345578537711614
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 10/100
+**********************************************************************
+Train corrects: 33061.0 Train samples: 50000 Train accuracy: 0.66122
+Train corrects: 32093.0 Train samples: 50000 Train accuracy: 0.64186
+Test corrects: 6460.0 Test samples: 10000 Test accuracy 0.646
+Train loss: 1.2184303030943322 Test loss: 1.265508099447323
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 11/100
+**********************************************************************
+Train corrects: 32057.0 Train samples: 50000 Train accuracy: 0.64114
+Train corrects: 34725.0 Train samples: 50000 Train accuracy: 0.6945
+Train corrects: 31190.0 Train samples: 50000 Train accuracy: 0.6238
+Test corrects: 6305.0 Test samples: 10000 Test accuracy 0.6305
+Train loss: 1.113420472425573 Test loss: 1.2015023314500157
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 11/100
+**********************************************************************
+Test corrects: 6742.0 Test samples: 10000 Test accuracy 0.6742
+Train loss: 1.0322766871098668 Test loss: 1.1110868604877326
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 11/100
+**********************************************************************
+Test corrects: 6327.0 Test samples: 10000 Test accuracy 0.6327
+Train loss: 1.1291529001177425 Test loss: 1.1848797518995744
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 11/100
+**********************************************************************
+Test corrects: 6110.0 Test samples: 10000 Test accuracy 0.611
+Train loss: 1.6078463774507918 Test loss: 1.64131954350049
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 11/100
+**********************************************************************
+Train corrects: 33545.0 Train samples: 50000 Train accuracy: 0.6709
+Test corrects: 6396.0 Test samples: 10000 Test accuracy 0.6396
+Train loss: 1.1883980252248856 Test loss: 1.2879423174677016
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 12/100
+**********************************************************************
+Train corrects: 32976.0 Train samples: 50000 Train accuracy: 0.65952
+Train corrects: 32015.0 Train samples: 50000 Train accuracy: 0.6403
+Train corrects: 32927.0 Train samples: 50000 Train accuracy: 0.65854
+Train corrects: 35280.0 Train samples: 50000 Train accuracy: 0.7056
+Test corrects: 6344.0 Test samples: 10000 Test accuracy 0.6344
+Train loss: 1.062461738543742 Test loss: 1.1749496180799943
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 12/100
+**********************************************************************
+Test corrects: 6111.0 Test samples: 10000 Test accuracy 0.6111
+Train loss: 1.5538981375486955 Test loss: 1.6396109484419037
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 12/100
+**********************************************************************
+Test corrects: 6870.0 Test samples: 10000 Test accuracy 0.687
+Train loss: 0.9897086690453922 Test loss: 1.0731998870644388
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 12/100
+**********************************************************************
+Test corrects: 6477.0 Test samples: 10000 Test accuracy 0.6477
+Train loss: 1.0744150523334512 Test loss: 1.1652413387841816
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 12/100
+**********************************************************************
+Train corrects: 34315.0 Train samples: 50000 Train accuracy: 0.6863
+Test corrects: 6669.0 Test samples: 10000 Test accuracy 0.6669
+Train loss: 1.1480989561361425 Test loss: 1.212492724762687
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 13/100
+**********************************************************************
+Train corrects: 33671.0 Train samples: 50000 Train accuracy: 0.67342
+Train corrects: 32879.0 Train samples: 50000 Train accuracy: 0.65758
+Train corrects: 35908.0 Train samples: 50000 Train accuracy: 0.71816
+Train corrects: 33931.0 Train samples: 50000 Train accuracy: 0.67862
+Test corrects: 6290.0 Test samples: 10000 Test accuracy 0.629
+Train loss: 1.018566697912143 Test loss: 1.1837450152711024
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 13/100
+**********************************************************************
+Test corrects: 6427.0 Test samples: 10000 Test accuracy 0.6427
+Train loss: 1.4978421734422065 Test loss: 1.534782059584992
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 13/100
+**********************************************************************
+Test corrects: 6961.0 Test samples: 10000 Test accuracy 0.6961
+Train loss: 0.9516564203650141 Test loss: 1.0536154357692864
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 13/100
+**********************************************************************
+Test corrects: 6588.0 Test samples: 10000 Test accuracy 0.6588
+Train loss: 1.027186641607748 Test loss: 1.1369520825675772
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 13/100
+**********************************************************************
+Train corrects: 34701.0 Train samples: 50000 Train accuracy: 0.69402
+Test corrects: 6706.0 Test samples: 10000 Test accuracy 0.6706
+Train loss: 1.1156834199300507 Test loss: 1.2037291021286687
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 14/100
+**********************************************************************
+Train corrects: 34528.0 Train samples: 50000 Train accuracy: 0.69056
+Test corrects: 6550.0 Test samples: 10000 Test accuracy 0.655
+Train loss: 0.9787396110232224 Test loss: 1.134556488900245
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 14/100
+**********************************************************************
+Train corrects: 33583.0 Train samples: 50000 Train accuracy: 0.67166
+Train corrects: 36364.0 Train samples: 50000 Train accuracy: 0.72728
+Train corrects: 34424.0 Train samples: 50000 Train accuracy: 0.68848
+Test corrects: 6259.0 Test samples: 10000 Test accuracy 0.6259
+Train loss: 1.4560153810569392 Test loss: 1.6184675014471706
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 14/100
+**********************************************************************
+Test corrects: 7021.0 Test samples: 10000 Test accuracy 0.7021
+Train loss: 0.9287066311787462 Test loss: 1.0638016583044319
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 14/100
+**********************************************************************
+Test corrects: 6631.0 Test samples: 10000 Test accuracy 0.6631
+Train loss: 0.9917633239265597 Test loss: 1.1349440383005747
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 14/100
+**********************************************************************
+Train corrects: 35431.0 Train samples: 50000 Train accuracy: 0.70862
+Test corrects: 6802.0 Test samples: 10000 Test accuracy 0.6802
+Train loss: 1.0798043611714296 Test loss: 1.169474660595761
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 15/100
+**********************************************************************
+Train corrects: 35492.0 Train samples: 50000 Train accuracy: 0.70984
+Test corrects: 6647.0 Test samples: 10000 Test accuracy 0.6647
+Train loss: 0.9201964164329002 Test loss: 1.1117762991144686
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 15/100
+**********************************************************************
+Train corrects: 34215.0 Train samples: 50000 Train accuracy: 0.6843
+Train corrects: 36800.0 Train samples: 50000 Train accuracy: 0.736
+Train corrects: 34912.0 Train samples: 50000 Train accuracy: 0.69824
+Test corrects: 6543.0 Test samples: 10000 Test accuracy 0.6543
+Train loss: 1.416815846167562 Test loss: 1.5142086367063885
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 15/100
+**********************************************************************
+Test corrects: 7077.0 Test samples: 10000 Test accuracy 0.7077
+Train loss: 0.8992724470470262 Test loss: 1.0330962825425063
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 15/100
+**********************************************************************
+Test corrects: 6781.0 Test samples: 10000 Test accuracy 0.6781
+Train loss: 0.9678355388324279 Test loss: 1.1073943783965292
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 15/100
+**********************************************************************
+Train corrects: 35906.0 Train samples: 50000 Train accuracy: 0.71812
+Test corrects: 6834.0 Test samples: 10000 Test accuracy 0.6834
+Train loss: 1.052580771086466 Test loss: 1.180962531626979
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 16/100
+**********************************************************************
+Train corrects: 36189.0 Train samples: 50000 Train accuracy: 0.72378
+Test corrects: 6808.0 Test samples: 10000 Test accuracy 0.6808
+Train loss: 0.8813380181332073 Test loss: 1.1021899935565418
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 16/100
+**********************************************************************
+Train corrects: 34967.0 Train samples: 50000 Train accuracy: 0.69934
+Train corrects: 37464.0 Train samples: 50000 Train accuracy: 0.74928
+Train corrects: 35888.0 Train samples: 50000 Train accuracy: 0.71776
+Test corrects: 6696.0 Test samples: 10000 Test accuracy 0.6696
+Train loss: 1.3758776849493042 Test loss: 1.4625804197939136
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 16/100
+**********************************************************************
+Test corrects: 7132.0 Test samples: 10000 Test accuracy 0.7132
+Train loss: 0.8581521068997395 Test loss: 0.9912656802165357
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 16/100
+**********************************************************************
+Test corrects: 6807.0 Test samples: 10000 Test accuracy 0.6807
+Train loss: 0.9229884589724529 Test loss: 1.0958012267004085
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 16/100
+**********************************************************************
+Train corrects: 36388.0 Train samples: 50000 Train accuracy: 0.72776
+Test corrects: 6933.0 Test samples: 10000 Test accuracy 0.6933
+Train loss: 1.0245005610348927 Test loss: 1.1512427956243105
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 17/100
+**********************************************************************
+Train corrects: 36880.0 Train samples: 50000 Train accuracy: 0.7376
+Test corrects: 6851.0 Test samples: 10000 Test accuracy 0.6851
+Train loss: 0.8449178049936319 Test loss: 1.0800417269332498
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 17/100
+**********************************************************************
+Train corrects: 35369.0 Train samples: 50000 Train accuracy: 0.70738
+Train corrects: 37954.0 Train samples: 50000 Train accuracy: 0.75908
+Train corrects: 36309.0 Train samples: 50000 Train accuracy: 0.72618
+Test corrects: 6755.0 Test samples: 10000 Test accuracy 0.6755
+Train loss: 1.343307604265335 Test loss: 1.488871299767796
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 17/100
+**********************************************************************
+Test corrects: 7135.0 Test samples: 10000 Test accuracy 0.7135
+Train loss: 0.8337845613279611 Test loss: 0.9957283893717995
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 17/100
+**********************************************************************
+Test corrects: 6873.0 Test samples: 10000 Test accuracy 0.6873
+Train loss: 0.8957233207914835 Test loss: 1.08421928595893
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 17/100
+**********************************************************************
+Train corrects: 36815.0 Train samples: 50000 Train accuracy: 0.7363
+Test corrects: 6959.0 Test samples: 10000 Test accuracy 0.6959
+Train loss: 0.9971443711949126 Test loss: 1.1384397782856905
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 18/100
+**********************************************************************
+Train corrects: 37405.0 Train samples: 50000 Train accuracy: 0.7481
+Test corrects: 6935.0 Test samples: 10000 Test accuracy 0.6935
+Train loss: 0.8025942972249083 Test loss: 1.082594884347312
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 18/100
+**********************************************************************
+Train corrects: 35563.0 Train samples: 50000 Train accuracy: 0.71126
+Train corrects: 38242.0 Train samples: 50000 Train accuracy: 0.76484
+Train corrects: 36687.0 Train samples: 50000 Train accuracy: 0.73374
+Test corrects: 6845.0 Test samples: 10000 Test accuracy 0.6845
+Train loss: 1.3262014971364795 Test loss: 1.4385099667537062
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 18/100
+**********************************************************************
+Test corrects: 7100.0 Test samples: 10000 Test accuracy 0.71
+Train loss: 0.8164692376275806 Test loss: 1.0160982224005688
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 18/100
+**********************************************************************
+Test corrects: 6958.0 Test samples: 10000 Test accuracy 0.6958
+Train loss: 0.8652352056539881 Test loss: 1.0669184576106976
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 18/100
+**********************************************************************
+Train corrects: 37257.0 Train samples: 50000 Train accuracy: 0.74514
+Test corrects: 7063.0 Test samples: 10000 Test accuracy 0.7063
+Train loss: 0.9691687361968447 Test loss: 1.10562663365014
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 19/100
+**********************************************************************
+Train corrects: 38048.0 Train samples: 50000 Train accuracy: 0.76096
+Test corrects: 7025.0 Test samples: 10000 Test accuracy 0.7025
+Train loss: 0.7693311565977228 Test loss: 1.0391352365288553
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 19/100
+**********************************************************************
+Train corrects: 36198.0 Train samples: 50000 Train accuracy: 0.72396
+Train corrects: 38707.0 Train samples: 50000 Train accuracy: 0.77414
+Train corrects: 37270.0 Train samples: 50000 Train accuracy: 0.7454
+Test corrects: 6906.0 Test samples: 10000 Test accuracy 0.6906
+Train loss: 1.2916527291393036 Test loss: 1.428263308126715
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 19/100
+**********************************************************************
+Test corrects: 7176.0 Test samples: 10000 Test accuracy 0.7176
+Train loss: 0.7870566796158891 Test loss: 1.017252024970477
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 19/100
+**********************************************************************
+Test corrects: 7003.0 Test samples: 10000 Test accuracy 0.7003
+Train loss: 0.83394615866644 Test loss: 1.0542137736006627
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 19/100
+**********************************************************************
+Train corrects: 37710.0 Train samples: 50000 Train accuracy: 0.7542
+Test corrects: 7015.0 Test samples: 10000 Test accuracy 0.7015
+Train loss: 0.9437374687560683 Test loss: 1.1345524833172183
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 20/100
+**********************************************************************
+Train corrects: 38590.0 Train samples: 50000 Train accuracy: 0.7718
+Test corrects: 6992.0 Test samples: 10000 Test accuracy 0.6992
+Train loss: 0.7331051713670306 Test loss: 1.0430399126644376
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 20/100
+**********************************************************************
+Train corrects: 36556.0 Train samples: 50000 Train accuracy: 0.73112
+Train corrects: 39271.0 Train samples: 50000 Train accuracy: 0.78542
+Train corrects: 37800.0 Train samples: 50000 Train accuracy: 0.756
+Test corrects: 6822.0 Test samples: 10000 Test accuracy 0.6822
+Train loss: 1.268981812555162 Test loss: 1.456204916857466
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 20/100
+**********************************************************************
+Test corrects: 6983.0 Test samples: 10000 Test accuracy 0.6983
+Train loss: 0.8038256012875101 Test loss: 1.0714235577402236
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 20/100
+**********************************************************************
+Test corrects: 7236.0 Test samples: 10000 Test accuracy 0.7236
+Train loss: 0.7560071481768128 Test loss: 0.9830027841314485
+**********************************************************************
+Current learning rate is 0.0001
+Epoch 20/100
+**********************************************************************
+Train corrects: 38039.0 Train samples: 50000 Train accuracy: 0.76078
+Test corrects: 7022.0 Test samples: 10000 Test accuracy 0.7022
+Train loss: 0.9263549008027977 Test loss: 1.1239880330954926
+**********************************************************************
+Current learning rate is 1e-05
+Epoch 21/100
+**********************************************************************
+Train corrects: 38999.0 Train samples: 50000 Train accuracy: 0.77998
+Test corrects: 7052.0 Test samples: 10000 Test accuracy 0.7052
+Train loss: 0.7056825287506708 Test loss: 1.0489822942999345
+**********************************************************************
+Current learning rate is 1e-05
+Epoch 21/100
+**********************************************************************
+Train corrects: 36982.0 Train samples: 50000 Train accuracy: 0.73964
+Train corrects: 38251.0 Train samples: 50000 Train accuracy: 0.76502
+Train corrects: 39429.0 Train samples: 50000 Train accuracy: 0.78858
+Test corrects: 6879.0 Test samples: 10000 Test accuracy 0.6879
+Train loss: 1.242385017902345 Test loss: 1.451120168347902
+**********************************************************************
+Current learning rate is 1e-05
+Epoch 21/100
+**********************************************************************
+Test corrects: 7047.0 Test samples: 10000 Test accuracy 0.7047
+Train loss: 0.7758074132987606 Test loss: 1.0623322061345548
+**********************************************************************
+Current learning rate is 1e-05
+Epoch 21/100
+**********************************************************************
+Test corrects: 7253.0 Test samples: 10000 Test accuracy 0.7253
+Train loss: 0.7398643036327703 Test loss: 0.9874081981332996
+**********************************************************************
+Current learning rate is 1e-05
+Epoch 21/100
+**********************************************************************
+Train corrects: 38960.0 Train samples: 50000 Train accuracy: 0.7792
+Test corrects: 7155.0 Test samples: 10000 Test accuracy 0.7155
+Train loss: 0.8740063288327679 Test loss: 1.0868761275388017
+**********************************************************************
+Current learning rate is 1e-05
+Epoch 22/100
+**********************************************************************
+Train corrects: 39983.0 Train samples: 50000 Train accuracy: 0.79966
+Test corrects: 7077.0 Test samples: 10000 Test accuracy 0.7077
+Train loss: 0.6410257981713775 Test loss: 1.0416968796826616
+**********************************************************************
+Current learning rate is 1e-05
+Epoch 22/100
+**********************************************************************
+Train corrects: 38045.0 Train samples: 50000 Train accuracy: 0.7609
+Train corrects: 39053.0 Train samples: 50000 Train accuracy: 0.78106
+Train corrects: 40249.0 Train samples: 50000 Train accuracy: 0.80498
+Test corrects: 7046.0 Test samples: 10000 Test accuracy 0.7046
+Train loss: 1.183614913764817 Test loss: 1.3841185962097555
+**********************************************************************
+Current learning rate is 1e-05
+Epoch 22/100
+**********************************************************************
+Test corrects: 7117.0 Test samples: 10000 Test accuracy 0.7117
+Train loss: 0.7332913516579992 Test loss: 1.039696420295329
+**********************************************************************
+Current learning rate is 1e-05
+Epoch 22/100
+**********************************************************************
+Test corrects: 7354.0 Test samples: 10000 Test accuracy 0.7354
+Train loss: 0.6938992522256758 Test loss: 0.9673424906368497
+**********************************************************************
+Current learning rate is 1e-05
+Epoch 22/100
+**********************************************************************
+Train corrects: 38934.0 Train samples: 50000 Train accuracy: 0.77868
+Test corrects: 7174.0 Test samples: 10000 Test accuracy 0.7174
+Train loss: 0.8732686096140186 Test loss: 1.0817416740369192
+**********************************************************************
+Current learning rate is 1e-05
+Epoch 23/100
+**********************************************************************
+Train corrects: 40127.0 Train samples: 50000 Train accuracy: 0.80254
+Test corrects: 7093.0 Test samples: 10000 Test accuracy 0.7093
+Train loss: 0.6328087437640676 Test loss: 1.028843001474308
+**********************************************************************
+Current learning rate is 1e-05
+Epoch 23/100
+**********************************************************************
+Train corrects: 38177.0 Train samples: 50000 Train accuracy: 0.76354
+Train corrects: 40464.0 Train samples: 50000 Train accuracy: 0.80928
+Train corrects: 39130.0 Train samples: 50000 Train accuracy: 0.7826
+Test corrects: 7040.0 Test samples: 10000 Test accuracy 0.704
+Train loss: 1.17932837332606 Test loss: 1.3781436108335663
+**********************************************************************
+Current learning rate is 1e-05
+Epoch 23/100
+**********************************************************************
+Test corrects: 7335.0 Test samples: 10000 Test accuracy 0.7335
+Train loss: 0.6827719197096422 Test loss: 0.970889497406875
+**********************************************************************
+Current learning rate is 1e-05
+Epoch 23/100
+**********************************************************************
+Test corrects: 7130.0 Test samples: 10000 Test accuracy 0.713
+Train loss: 0.7185150993144725 Test loss: 1.0441694402996498
+**********************************************************************
+Current learning rate is 1e-05
+Epoch 23/100
+**********************************************************************
+Train corrects: 39097.0 Train samples: 50000 Train accuracy: 0.78194
+Test corrects: 7131.0 Test samples: 10000 Test accuracy 0.7131
+Train loss: 0.8673048498075636 Test loss: 1.0897543136077592
+**********************************************************************
+Current learning rate is 1e-05
+Epoch 24/100
+**********************************************************************
+Train corrects: 40267.0 Train samples: 50000 Train accuracy: 0.80534
+Test corrects: 7161.0 Test samples: 10000 Test accuracy 0.7161
+Train loss: 0.6290370145112353 Test loss: 1.0229503663280342
+**********************************************************************
+Current learning rate is 1e-05
+Epoch 24/100
+**********************************************************************
+Train corrects: 38189.0 Train samples: 50000 Train accuracy: 0.76378
+Train corrects: 40420.0 Train samples: 50000 Train accuracy: 0.8084
+Train corrects: 39253.0 Train samples: 50000 Train accuracy: 0.78506
+Test corrects: 7036.0 Test samples: 10000 Test accuracy 0.7036
+Train loss: 1.174456426097304 Test loss: 1.3827554138400886
+**********************************************************************
+Current learning rate is 1e-05
+Epoch 24/100
+**********************************************************************
+Test corrects: 7354.0 Test samples: 10000 Test accuracy 0.7354
+Train loss: 0.68394490443837 Test loss: 0.9667071556743188
+**********************************************************************
+Current learning rate is 1e-05
+Epoch 24/100
+**********************************************************************
+Test corrects: 7150.0 Test samples: 10000 Test accuracy 0.715
+Train loss: 0.7185397667957999 Test loss: 1.0418306438228753
+**********************************************************************
+Current learning rate is 1e-05
+Epoch 24/100
+**********************************************************************
+Train corrects: 39089.0 Train samples: 50000 Train accuracy: 0.78178
+Test corrects: 7144.0 Test samples: 10000 Test accuracy 0.7144
+Train loss: 0.8642481978592056 Test loss: 1.084458507314513
+**********************************************************************
+Current learning rate is 1e-05
+Epoch 25/100
+**********************************************************************
+Train corrects: 40331.0 Train samples: 50000 Train accuracy: 0.80662
+Test corrects: 7151.0 Test samples: 10000 Test accuracy 0.7151
+Train loss: 0.6218637575578811 Test loss: 1.0255616812766353
+**********************************************************************
+Current learning rate is 1e-05
+Epoch 25/100
+**********************************************************************
+Train corrects: 38198.0 Train samples: 50000 Train accuracy: 0.76396
+Train corrects: 40404.0 Train samples: 50000 Train accuracy: 0.80808
+Train corrects: 39375.0 Train samples: 50000 Train accuracy: 0.7875
+Test corrects: 7057.0 Test samples: 10000 Test accuracy 0.7057
+Train loss: 1.1716528563853115 Test loss: 1.3788800873333895
+**********************************************************************
+Current learning rate is 1e-05
+Epoch 25/100
+**********************************************************************
+Test corrects: 7328.0 Test samples: 10000 Test accuracy 0.7328
+Train loss: 0.6792593362081386 Test loss: 0.9683739422242853
+**********************************************************************
+Current learning rate is 1e-05
+Epoch 25/100
+**********************************************************************
+Test corrects: 7160.0 Test samples: 10000 Test accuracy 0.716
+Train loss: 0.7110384269748502 Test loss: 1.0431890631023841
+**********************************************************************
+Current learning rate is 1e-05
+Epoch 25/100
+**********************************************************************
+Train corrects: 39223.0 Train samples: 50000 Train accuracy: 0.78446
+Test corrects: 7172.0 Test samples: 10000 Test accuracy 0.7172
+Train loss: 0.8646026540290365 Test loss: 1.079576551914215
+**********************************************************************
+Train corrects: 40477.0 Train samples: 50000 Train accuracy: 0.80954
+Test corrects: 7161.0 Test samples: 10000 Test accuracy 0.7161
+Train loss: 0.6179913559838024 Test loss: 1.0193841691258587
+**********************************************************************
+Train corrects: 38248.0 Train samples: 50000 Train accuracy: 0.76496
+Train corrects: 40483.0 Train samples: 50000 Train accuracy: 0.80966
+Train corrects: 39345.0 Train samples: 50000 Train accuracy: 0.7869
+Test corrects: 7351.0 Test samples: 10000 Test accuracy 0.7351
+Train loss: 0.6743097342646031 Test loss: 0.9634521120711218
+**********************************************************************
+Test corrects: 7158.0 Test samples: 10000 Test accuracy 0.7158
+Train loss: 0.7084412107534726 Test loss: 1.0451831274394747
+**********************************************************************
+
+===== SLURM IS ISTATISTIKLERI (JOB STATISTICS) ========================
+Job ID: 34872
+Cluster: altay
+User/Group: gbaykal/yzmkp1
+State: FAILED (exit code 1)
+Nodes: 1
+Cores per node: 64
+CPU Utilized: 00:41:27
+CPU Efficiency: 11.20% of 06:10:08 core-walltime
+Job Wall-clock time: 00:05:47
+Memory Utilized: 50.26 GB
+Memory Efficiency: 10.29% of 488.28 GB
+
+=======================================================================

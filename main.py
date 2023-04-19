@@ -11,6 +11,7 @@ from Models import *
 from train_utils import *
 import torch.utils.data as utils
 import argparse
+
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 if __name__ == "__main__":
@@ -42,7 +43,7 @@ if __name__ == "__main__":
 
         return np.array(new_dataset)
 
-
+    
     dataset = CIFAR10Dataset(batch_size = args.batch_size)
     trainloader = dataset.trainloader
     testloader = dataset.testloader

@@ -15,8 +15,8 @@ class ModifiedResNet(nn.Module):
     def __init__(self, num_hidden_units, s, *args, **kwargs):
         super(ModifiedResNet, self).__init__()
         self.scale = s
-        # self.resnet = torchvision.models.resnet18(pretrained=True)
-        self.resnet = torchvision.models.resnet34(pretrained=True)
+        self.resnet = torchvision.models.resnet18(pretrained=True)
+        #self.resnet = torchvision.models.resnet34(pretrained=True)
         num_ftrs = self.resnet.fc.out_features
 
         self.reduce_to_hidden = nn.Linear(num_ftrs, num_hidden_units)
@@ -36,7 +36,7 @@ class dce_loss(torch.nn.Module):
         super(dce_loss, self).__init__()
         self.n_classes = n_classes
         self.feat_dim = feat_dim
-        self.centers = nn.Parameter(
+        self.centers = nn.Parameter( # Prototypes 
             torch.randn(self.feat_dim, self.n_classes), requires_grad=True
         )
         if init_weight:

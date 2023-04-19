@@ -1,0 +1,28 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+Done
+Done
+Done
+
+===== SLURM IS ISTATISTIKLERI (JOB STATISTICS) ========================
+Job ID: 34874
+Cluster: altay
+User/Group: gbaykal/yzmkp1
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 64
+CPU Utilized: 08:06:49
+CPU Efficiency: 79.51% of 10:12:16 core-walltime
+Job Wall-clock time: 00:09:34
+Memory Utilized: 20.90 GB
+Memory Efficiency: 4.28% of 488.28 GB
+
+=======================================================================

@@ -12,34 +12,13 @@ module load ANACONDA/Anaconda3-2022.10-python-3.9
 
 source activate diffusion-prototype
 
-python main.py --batch_size 64 --h 2 --lr 0.0001 --exp_name h_2_lr_1e4 &
+python main.py --batch_size 128 --h 16 --lr 0.0001 --reg 0.01 --exp_name h_16_lr_1e4_reg_1e2 &
 sleep 30 &
-python main.py --batch_size 64 --h 4 --lr 0.0001 --exp_name h_4_lr_1e4 &
+python main.py --batch_size 128 --h 32 --lr 0.0001 --reg 0.01 --exp_name h_32_lr_1e4_reg_1e2 &
 sleep 30 &
-python main.py --batch_size 64 --h 8 --lr 0.0001 --exp_name h_8_lr_1e4 &
+python main.py --batch_size 128 --h 64 --lr 0.0001 --reg 0.01 --exp_name h_64_lr_1e4_reg_1e2 &
 sleep 30 &
-python main.py --batch_size 64 --h 16 --lr 0.0001 --exp_name h_16_lr_1e4 &
+python main.py --batch_size 128 --h 128 --lr 0.0001 --reg 0.01 --exp_name h_128_lr_1e4_reg_1e2 &
 sleep 30 &
-python main.py --batch_size 64 --h 32 --lr 0.0001 --exp_name h_32_lr_1e4 &
-sleep 30 &
-python main.py --batch_size 64 --h 2 --lr 0.00001 --exp_name h_2_lr_1e5 &
-sleep 30 &
-python main.py --batch_size 64 --h 4 --lr 0.00001 --exp_name h_4_lr_1e5 &
-sleep 30 &
-python main.py --batch_size 64 --h 6 --lr 0.00001 --exp_name h_8_lr_1e5 &
-sleep 30 &
-python main.py --batch_size 64 --h 16 --lr 0.00001 --exp_name h_16_lr_1e5 &
-sleep 30 &
-python main.py --batch_size 64 --h 32 --lr 0.00001 --exp_name h_32_lr_1e5 &
-sleep 30 &
-python main.py --batch_size 64 --h 64 --lr 0.0001 --exp_name h_64_lr_1e4 &
-sleep 30 &
-python main.py --batch_size 64 --h 128 --lr 0.0001 --exp_name h_128_lr_1e4 &
-sleep 30 &
-python main.py --batch_size 64 --h 256 --lr 0.0001 --exp_name h_256_lr_1e4 &
-sleep 30 &
-python main.py --batch_size 64 --h 64 --lr 0.00001 --exp_name h64_lr_1e5 &
-sleep 30 &
-python main.py --batch_size 64 --h 128 --lr 0.00001 --exp_name h_128_lr_1e5 &
-sleep 30 &
-python main.py --batch_size 64 --h 256 --lr 0.00001 --exp_name h_256_lr_1e5 
+python main.py --batch_size 128 --h 256 --lr 0.0001 --reg 0.01 --exp_name h_256_lr_1e4_reg_1e2 
+

@@ -1,0 +1,207 @@
+	Bu module sadece a100q ve a100x4q kuyrugundaki makinalarda calisir.
+Anaconda icin bu module ilaveten asagidaki komutu da calistiriniz:
+source /ari/progs/ANACONDA/Anaconda3-2022.10-python-3.9/etc/profile.d/conda.sh
+/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=ResNet18_Weights.IMAGENET1K_V1`. You can also use `weights=ResNet18_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Traceback (most recent call last):
+  File "/ari/users/gbaykal/ProtoDiff/Robust-Classification-with-Convolutional-Prototype-Learning-Pytorch/visualize.py", line 86, in <module>
+    plt.scatter(centers[:, 0], centers[:, 1], c='black', s=100)
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/pyplot.py", line 996, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/figure.py", line 3328, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/backend_bases.py", line 2362, in print_figure
+    result = print_method(
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/backend_bases.py", line 2228, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py", line 509, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py", line 458, in _print_pil
+    mpl.image.imsave(
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/image.py", line 1687, in imsave
+    image.save(fname, **pil_kwargs)
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/PIL/Image.py", line 2428, in save
+    fp = builtins.open(filename, "w+b")
+FileNotFoundError: [Errno 2] No such file or directory: 'results/resnet18/h_8_lr_1e4/test.png'
+Traceback (most recent call last):
+  File "/ari/users/gbaykal/ProtoDiff/Robust-Classification-with-Convolutional-Prototype-Learning-Pytorch/visualize.py", line 86, in <module>
+    plt.scatter(centers[:, 0], centers[:, 1], c='black', s=100)
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/pyplot.py", line 996, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/figure.py", line 3328, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/backend_bases.py", line 2362, in print_figure
+    result = print_method(
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/backend_bases.py", line 2228, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py", line 509, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py", line 458, in _print_pil
+    mpl.image.imsave(
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/image.py", line 1687, in imsave
+    image.save(fname, **pil_kwargs)
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/PIL/Image.py", line 2428, in save
+    fp = builtins.open(filename, "w+b")
+FileNotFoundError: [Errno 2] No such file or directory: 'results/resnet18/h_2_lr_1e5/test.png'
+Traceback (most recent call last):
+  File "/ari/users/gbaykal/ProtoDiff/Robust-Classification-with-Convolutional-Prototype-Learning-Pytorch/visualize.py", line 86, in <module>
+    plt.scatter(centers[:, 0], centers[:, 1], c='black', s=100)
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/pyplot.py", line 996, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/figure.py", line 3328, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/backend_bases.py", line 2362, in print_figure
+    result = print_method(
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/backend_bases.py", line 2228, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py", line 509, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py", line 458, in _print_pil
+    mpl.image.imsave(
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/image.py", line 1687, in imsave
+    image.save(fname, **pil_kwargs)
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/PIL/Image.py", line 2428, in save
+    fp = builtins.open(filename, "w+b")
+FileNotFoundError: [Errno 2] No such file or directory: 'results/resnet18/h_2_lr_1e4/test.png'
+Traceback (most recent call last):
+  File "/ari/users/gbaykal/ProtoDiff/Robust-Classification-with-Convolutional-Prototype-Learning-Pytorch/visualize.py", line 86, in <module>
+    plt.scatter(centers[:, 0], centers[:, 1], c='black', s=100)
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/pyplot.py", line 996, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/figure.py", line 3328, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/backend_bases.py", line 2362, in print_figure
+    result = print_method(
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/backend_bases.py", line 2228, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py", line 509, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py", line 458, in _print_pil
+    mpl.image.imsave(
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/image.py", line 1687, in imsave
+    image.save(fname, **pil_kwargs)
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/PIL/Image.py", line 2428, in save
+    fp = builtins.open(filename, "w+b")
+FileNotFoundError: [Errno 2] No such file or directory: 'results/resnet18/h_4_lr_1e5/test.png'
+Traceback (most recent call last):
+  File "/ari/users/gbaykal/ProtoDiff/Robust-Classification-with-Convolutional-Prototype-Learning-Pytorch/visualize.py", line 86, in <module>
+    plt.scatter(centers[:, 0], centers[:, 1], c='black', s=100)
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/pyplot.py", line 996, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/figure.py", line 3328, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/backend_bases.py", line 2362, in print_figure
+    result = print_method(
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/backend_bases.py", line 2228, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py", line 509, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py", line 458, in _print_pil
+    mpl.image.imsave(
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/image.py", line 1687, in imsave
+    image.save(fname, **pil_kwargs)
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/PIL/Image.py", line 2428, in save
+    fp = builtins.open(filename, "w+b")
+FileNotFoundError: [Errno 2] No such file or directory: 'results/resnet18/h_8_lr_1e5/test.png'
+Traceback (most recent call last):
+  File "/ari/users/gbaykal/ProtoDiff/Robust-Classification-with-Convolutional-Prototype-Learning-Pytorch/visualize.py", line 86, in <module>
+    plt.scatter(centers[:, 0], centers[:, 1], c='black', s=100)
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/pyplot.py", line 996, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/figure.py", line 3328, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/backend_bases.py", line 2362, in print_figure
+    result = print_method(
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/backend_bases.py", line 2228, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py", line 509, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py", line 458, in _print_pil
+    mpl.image.imsave(
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/image.py", line 1687, in imsave
+    image.save(fname, **pil_kwargs)
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/PIL/Image.py", line 2428, in save
+    fp = builtins.open(filename, "w+b")
+FileNotFoundError: [Errno 2] No such file or directory: 'results/resnet18/h_16_lr_1e4/test.png'
+Traceback (most recent call last):
+  File "/ari/users/gbaykal/ProtoDiff/Robust-Classification-with-Convolutional-Prototype-Learning-Pytorch/visualize.py", line 86, in <module>
+    plt.scatter(centers[:, 0], centers[:, 1], c='black', s=100)
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/pyplot.py", line 996, in savefig
+    res = fig.savefig(*args, **kwargs)
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/figure.py", line 3328, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/backend_bases.py", line 2362, in print_figure
+    result = print_method(
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/backend_bases.py", line 2228, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py", line 509, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/backends/backend_agg.py", line 458, in _print_pil
+    mpl.image.imsave(
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/matplotlib/image.py", line 1687, in imsave
+    image.save(fname, **pil_kwargs)
+  File "/ari/users/gbaykal/.conda/envs/diffusion-prototype/lib/python3.10/site-packages/PIL/Image.py", line 2428, in save
+    fp = builtins.open(filename, "w+b")
+FileNotFoundError: [Errno 2] No such file or directory: 'results/resnet18/h_256_lr_1e5/test.png'
